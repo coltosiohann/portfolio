@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-900 text-gray-100;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 hover:text-blue-400 transition-colors duration-200;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500;
+  }
+  
+  .skill-badge {
+    @apply px-4 py-2 rounded-full bg-gray-800 text-sm font-medium hover:bg-gray-700 transition-colors duration-200;
+  }
+  
+  .project-card {
+    @apply bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-[1.02] transition-all duration-300;
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 0.3; }
+}
