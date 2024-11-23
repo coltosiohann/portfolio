@@ -1,0 +1,52 @@
+/* --- Text Animation --- */
+
+h1 span {
+  display: inline-block;
+  background-size: 200% 200%;
+  animation: gradientShift 4s linear infinite;
+}
+
+/* Gradient animation for text */
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* --- Layer Management --- */
+
+/* Center the content */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.relative.z-10 {
+  z-index: 10;
+}
+
+svg {
+  position: relative;
+  z-index: 10;
+}
+
+/* Styling for the social media icons */
+a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a:hover {
+  background-color: #333;
+}

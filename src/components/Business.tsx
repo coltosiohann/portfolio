@@ -1,34 +1,34 @@
 import React from 'react';
-import { Cpu, Bot, Code2, Wrench } from 'lucide-react';
+import { Printer,Rotate3d,Trees, HardHat, Cpu, Bot, Code2, Wrench } from 'lucide-react';
 
 export default function Business() {
   const services = [
     {
-      icon: <Cpu className="w-12 h-12 text-blue-400" />,
-      title: 'Electronics Design',
-      description: 'Custom electronic circuit design and PCB layout for innovative solutions.',
+      icon: <Printer className="w-12 h-12 text-blue-400" />,
+      title: 'Consumer 3D printing',
+      description: '3D printing & modeling for consumer base.',
     },
     {
-      icon: <Bot className="w-12 h-12 text-purple-400" />,
-      title: 'Robotics Development',
-      description: 'Building and programming autonomous robots for various applications.',
+      icon: <Rotate3d className="w-12 h-12 text-purple-400" />,
+      title: 'Industrial 3d printing',
+      description: '3D printing & modeling for industrial projects.',
     },
     {
-      icon: <Code2 className="w-12 h-12 text-green-400" />,
-      title: 'Software Development',
-      description: 'Creating custom software solutions and embedded systems programming.',
+      icon: <HardHat className="w-12 h-12 text-green-400" />,
+      title: 'Machinery rental over Europe',
+      description: 'Machinery Rental for special Geo-Tehnic constructions over Europe.',
     },
     {
-      icon: <Wrench className="w-12 h-12 text-yellow-400" />,
-      title: 'Technical Consulting',
-      description: 'Expert advice on electronics and robotics projects implementation.',
+      icon: <Trees className="w-12 h-12 text-yellow-400" />,
+      title: 'Forestry & Concrete production',
+      description: 'Wood and Concrete production in Romania.',
     },
   ];
 
   return (
     <section id="business" className="py-20 bg-gray-800">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-title text-center">Services & Solutions</h2>
+        <h2 className="section-title text-center">Businesses, Services & Solutions</h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
           {services.map((service, index) => (

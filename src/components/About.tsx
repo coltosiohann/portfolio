@@ -10,8 +10,11 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300">
-              I'm a passionate full-stack developer with 5 years of experience building modern web applications.
-              I specialize in creating beautiful, functional, and user-friendly experiences that solve real-world problems.
+            I'm a passionate student at Politehnica University of Bucharest, where I dive into the exciting world of robotics, automation, and technology. I love building cool stuff, from cutting-edge robots to innovative automation systems.
+
+In addition to my studies, I'm also actively involved in 3D printing & design, running businesses in both consumer and industrial 3D printing. This allows me to blend my creativity with hands-on engineering, creating real-world solutions.
+
+On top of that, I enjoy programming web applications, making technology more accessible and impactful for the future!
             </p>
             <p className="text-lg text-gray-300">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
@@ -35,7 +38,7 @@ export default function About() {
             <div className="bg-gray-800 p-6 rounded-lg md:col-span-2">
               <Globe className="w-12 h-12 mb-4 text-green-400" />
               <h3 className="text-xl font-semibold mb-2">Full Stack</h3>
-              <p className="text-gray-400">End-to-end solutions from backend to frontend</p>
+              <p className="text-gray-400">End-to-end solutions </p>
             </div>
           </div>
         </div>

@@ -21,8 +21,8 @@ export default function Contact() {
         <div className="bg-gray-900 rounded-xl p-8">
           <div className="flex items-center justify-center mb-8">
             <Mail size={32} className="text-blue-400 mr-4" />
-            <a href="mailto:contact@example.com" className="text-xl hover:text-blue-400 transition-colors">
-              contact@example.com
+            <a href="mailto:coltosiohann@proton.me" className="text-xl hover:text-blue-400 transition-colors">
+              coltosiohann@proton.me
             </a>
           </div>
           

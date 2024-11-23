@@ -25,7 +25,7 @@ export default function Footer() {
             <h4 className="text-lg font-medium text-white">Contact</h4>
             <ul className="space-y-2">
               <li className="text-gray-400">Bucharest, Romania</li>
-              <li><a href="mailto:contact@example.com" className="text-gray-400 hover:text-blue-400 transition-colors">contact@example.com</a></li>
+              <li><a href="mailto:coltosiohann@proton.me" className="text-gray-400 hover:text-blue-400 transition-colors">coltosiohann@proton.me</a></li>
             </ul>
           </div>
           
