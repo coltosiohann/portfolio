@@ -2,9 +2,12 @@ import React from 'react';
 
 export default function Skills() {
   const skills = {
-    'Frontend': ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js'],
-    'Backend': ['Node.js', 'Python', 'PostgreSQL', 'MongoDB', 'GraphQL'],
-    'Tools': ['Git', 'Docker', 'AWS', 'Firebase', 'Figma'],
+    '3D Printing&Modeling': ['Consumer 3D Printing', 'Industrial 3D Printing', 'Metal 3D Printing', 
+      'Consumer 3D Modeling', 'Industrial 3D Modeling'],
+    'Building': ['DIY Projects', 'Consumer-Based Applications', 'Industrial-Based Applications'
+      , 'Consumer-Based Projects', 'Industrial-Based Projects', 'Home-Automation'],
+    'Programming': ['Git', 'Docker', 'AWS', 'Firebase', 'Figma', 'React', 'TypeScript', 
+      'Tailwind CSS', 'Next.js', 'Vue.js']
   };
 
   return (

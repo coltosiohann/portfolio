@@ -18,7 +18,7 @@ On top of that, I enjoy programming web applications, making technology more acc
             </p>
             <p className="text-lg text-gray-300">
               When I'm not coding, you can find me exploring new technologies, contributing to open-source projects,
-              or sharing my knowledge through technical writing and mentoring.
+              ,sharing my knowledge through technical writing and mentoring. I am also mentoring FTC Teams to help them achieve the success!
             </p>
           </div>
           
@@ -32,13 +32,13 @@ On top of that, I enjoy programming web applications, making technology more acc
             <div className="bg-gray-800 p-6 rounded-lg">
               <Palette className="w-12 h-12 mb-4 text-purple-400" />
               <h3 className="text-xl font-semibold mb-2">Design</h3>
-              <p className="text-gray-400">Creating intuitive and beautiful user interfaces</p>
+              <p className="text-gray-400">Creating intuitive and beautiful projects</p>
             </div>
             
             <div className="bg-gray-800 p-6 rounded-lg md:col-span-2">
               <Globe className="w-12 h-12 mb-4 text-green-400" />
               <h3 className="text-xl font-semibold mb-2">Full Stack</h3>
-              <p className="text-gray-400">End-to-end solutions </p>
+              <p className="text-gray-400">End-to-end solutions for everything </p>
             </div>
           </div>
         </div>
